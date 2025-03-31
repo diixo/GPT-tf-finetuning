@@ -51,6 +51,9 @@ attention_masks = encodings["attention_mask"][:, :-1]
 print(encodings["input_ids"])
 print(encodings["attention_mask"])
 
+for sequence in encodings["input_ids"]:
+    print(tokenizer_gpt.convert_ids_to_tokens(sequence))
+
 ##########################################################################################
 mask_tokens_ids = tokenizer_gpt.convert_tokens_to_ids(['a', 'Ġa', 'an', 'Ġan', 'the', 'Ġthe'])
 
