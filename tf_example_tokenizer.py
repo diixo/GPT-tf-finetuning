@@ -14,7 +14,7 @@ def str_tokenize_words(s: str, stopwords=set()):
 seq_length = 16
 
 content = [
-    "This is a sentence viiX.",
+    "This is a sentence viiX. Art is dream",
     "The viiX is about of an IT",
     "Here is the another sentence, that is a bit longer.",
     "An energy of IT", "A viiX"]
@@ -55,11 +55,11 @@ for sequence in encodings["input_ids"]:
     print(tokenizer_gpt.convert_ids_to_tokens(sequence))
 
 ##########################################################################################
-mask_tokens_ids = tokenizer_gpt.convert_tokens_to_ids(['a', 'Ġa', 'an', 'Ġan', 'the', 'Ġthe'])
+mask_tokens_ids = tokenizer_gpt.convert_tokens_to_ids(["<s>", "a", "Ġa", "an", "Ġan", "the", "Ġthe"])
 
 mask_tokens = tokenizer_gpt.convert_ids_to_tokens(mask_tokens_ids)
 
-print(mask_tokens_ids)
+print("mask_tokens_ids", mask_tokens_ids)
 
 # for token_id in mask_tokens_ids:
 #     attention_masks[train_data == token_id] = 0
