@@ -39,7 +39,7 @@ while i < len(lines) - 1:
 if i < len(lines):
     merged_lines.append(lines[i].rstrip())
 
-# Сохраняем исправленный результат
+
 corrected_output_path = "tokenizer-gpt/processed-austen-emma.txt"
 with open(corrected_output_path, "w", encoding="utf-8") as file:
     file.write("\n".join(merged_lines))
