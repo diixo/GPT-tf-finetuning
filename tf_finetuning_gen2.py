@@ -37,7 +37,7 @@ def str_tokenize_words(s: str, stopwords=set()):
 
 # ---------------------------------
 
-model_path = f"tokenizer-gpt/emma-gen2-{embedding_dim}-{batch_size}-{seq_length}-{dff}-{num_heads}.h5"
+model_path = f"models/emma-gen2-{embedding_dim}-{batch_size}-{seq_length}-{dff}-{num_heads}.h5"
 
 with open("data/processed-austen-emma.txt", "r", encoding='utf-8') as f:
     text = f.readlines()

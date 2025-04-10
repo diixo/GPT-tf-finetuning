@@ -17,7 +17,7 @@ learning_rate = 5e-4
 epochs = 30
 # ---------------------------------
 
-model_path = f"tokenizer-gpt/emma-gpt2-{embedding_dim}-{batch_size}-{seq_length}-{dff}-{num_heads}.h5"
+model_path = f"models/emma-gpt2-{embedding_dim}-{batch_size}-{seq_length}-{dff}-{num_heads}.h5"
 
 with open("data/austen-emma.txt", "r", encoding="utf-8") as file:
     lines = file.read().splitlines()

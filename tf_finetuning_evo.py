@@ -23,9 +23,9 @@ epochs = 10
 
 #####################################################################
 
-model_path = f"tokenizer-gpt/romeo-gpt2-{embedding_dim}-{batch_size}-{seq_length}-{dff}-{num_heads}.h5"
+model_path = f"models/romeo-gpt2-{embedding_dim}-{batch_size}-{seq_length}-{dff}-{num_heads}.h5"
 
-with open("input.txt", "r", encoding="utf-8") as file:
+with open("data/input.txt", "r", encoding="utf-8") as file:
     lines = file.read().split("\n")
 
 lines = [line for line in lines if len(str_tokenize_words(line)) > 2]

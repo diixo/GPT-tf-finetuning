@@ -91,6 +91,6 @@ def generate_text(start, model):
     return tokenizer_gpt.decode(output[0])
 
 
-#model.save_weights("tokenizer-gpt/tf_finetuning.h5")
+#model.save_weights("models/tf_finetuning.h5")
 
 print(generate_text("the", model))
