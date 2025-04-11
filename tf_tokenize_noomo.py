@@ -49,10 +49,15 @@ print(f"model.config: vocab.sz={tokenizer_gpt.vocab_size},",
 
 ##########################################################################################
 
-input_ids = tokenizer_gpt("Learning learns hears is hearing", add_special_tokens=False, padding=False, return_tensors="np")
-input_ids = input_ids["input_ids"]
-input_ids = input_ids[0]
+def print_tokenization(prompt: str):
+    input_ids = tokenizer_gpt(prompt, add_special_tokens=False, padding=False, return_tensors="np")
+    input_ids = input_ids["input_ids"]
+    input_ids = input_ids[0]
 
-#print(input_ids)
-print(tokenizer_gpt.convert_ids_to_tokens(input_ids))
-print(tokenizer_gpt.decode(input_ids, skip_special_tokens=False))
+    #print(input_ids)
+    print(tokenizer_gpt.convert_ids_to_tokens(input_ids))
+    print(tokenizer_gpt.decode(input_ids, skip_special_tokens=False))
+
+print_tokenization("Learning learns hears is hearing")
+
+print_tokenization("Do doing does")
