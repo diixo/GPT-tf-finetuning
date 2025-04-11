@@ -26,6 +26,8 @@ trainer = BpeTrainer(vocab_size=50000, initial_alphabet=ByteLevel.alphabet(), mi
 
 tokenizer.train(["data/synthetic-data.txt"], trainer)
 
+tokenizer.add_tokens(["all",])
+
 fast_tokenizer = PreTrainedTokenizerFast(
     tokenizer_object = tokenizer,
     bos_token = "<s>",
@@ -64,4 +66,4 @@ print_tokenization("Do doing does")
 
 print_tokenization("Wear wears wearing")
 
-#print_tokenization("All is as was")
+print_tokenization("All all is")

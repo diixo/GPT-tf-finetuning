@@ -39,6 +39,14 @@
       "rstrip": false,
       "single_word": false,
       "special": true
+    },
+    "282": {
+      "content": "all",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
     }
   },
   "bos_token": "<s>",
