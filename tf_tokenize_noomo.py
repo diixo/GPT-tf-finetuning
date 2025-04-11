@@ -20,7 +20,7 @@ tokenizer.normalizer = Sequence([Lowercase()])
 tokenizer.pre_tokenizer = ByteLevel()
 tokenizer.decoder = ByteLevelDecoder()
 
-trainer = BpeTrainer(vocab_size=50000, initial_alphabet=ByteLevel.alphabet(), min_frequency=1,
+trainer = BpeTrainer(vocab_size=50000, initial_alphabet=ByteLevel.alphabet(), min_frequency=2,
     special_tokens=["<pad>", "<s>", "</s>", "<unk>", "<mask>"
     ])
 
@@ -49,7 +49,7 @@ print(f"model.config: vocab.sz={tokenizer_gpt.vocab_size},",
 
 ##########################################################################################
 
-input_ids = tokenizer_gpt("Learning is hearing", add_special_tokens=False, padding=False, return_tensors="np")
+input_ids = tokenizer_gpt("Learning learns hears is hearing", add_special_tokens=False, padding=False, return_tensors="np")
 input_ids = input_ids["input_ids"]
 input_ids = input_ids[0]
 
