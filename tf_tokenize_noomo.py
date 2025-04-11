@@ -58,6 +58,6 @@ def print_tokenization(prompt: str):
     print(tokenizer_gpt.convert_ids_to_tokens(input_ids))
     print(tokenizer_gpt.decode(input_ids, skip_special_tokens=False))
 
-print_tokenization("Learning learns hears is hearing")
+print_tokenization("Learning learns learned hears is hearing")
 
 print_tokenization("Do doing does")
