@@ -49,8 +49,395 @@
       "special": true
     },
     {
-      "id": 282,
+      "id": 261,
+      "content": "do",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 262,
+      "content": "ing",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 263,
+      "content": "are",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 264,
+      "content": "as",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 265,
+      "content": "was",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 266,
+      "content": "es",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 267,
+      "content": "er",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 268,
+      "content": "were",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 269,
+      "content": "will",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 270,
       "content": "all",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 271,
+      "content": "is",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 272,
+      "content": "his",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 273,
+      "content": "this",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 274,
+      "content": "learn",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 275,
+      "content": "hear",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 276,
+      "content": "wear",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 277,
+      "content": "to",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 278,
+      "content": "ed",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 279,
+      "content": "look",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 280,
+      "content": "watch",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 281,
+      "content": "work",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 282,
+      "content": "help",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 283,
+      "content": "need",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 284,
+      "content": "open",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 285,
+      "content": "visit",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 286,
+      "content": "call",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 287,
+      "content": "run",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 288,
+      "content": "teach",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 289,
+      "content": "see",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 290,
+      "content": "theywhere",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 291,
+      "content": "there",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 292,
+      "content": "here",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 293,
+      "content": "no",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 294,
+      "content": "nope",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 295,
+      "content": "not",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 296,
+      "content": "for",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 297,
+      "content": "some",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 298,
+      "content": "every",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 299,
+      "content": "each",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 300,
+      "content": "any",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 301,
+      "content": "still",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 302,
+      "content": "fill",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 303,
+      "content": "ill",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": true,
+      "special": false
+    },
+    {
+      "id": 304,
+      "content": "want",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -349,114 +736,8 @@
       "ŀ": 257,
       "Ł": 258,
       "ł": 259,
-      "Ń": 260,
-      "ar": 261,
-      "ear": 262,
-      "in": 263,
-      "lear": 264,
-      "Ġlear": 265,
-      "ing": 266,
-      "Ġlearn": 267,
-      "do": 268,
-      "hear": 269,
-      "wear": 270,
-      "Ġdo": 271,
-      "Ġhear": 272,
-      "Ġwear": 273,
-      "'s": 274,
-      "to": 275,
-      "Ġto": 276,
-      "is": 277,
-      "Ġis": 278,
-      "ed": 279,
-      "es": 280,
-      "Ġlearning": 281
+      "Ń": 260
     },
-    "merges": [
-      [
-        "a",
-        "r"
-      ],
-      [
-        "e",
-        "ar"
-      ],
-      [
-        "i",
-        "n"
-      ],
-      [
-        "l",
-        "ear"
-      ],
-      [
-        "Ġ",
-        "lear"
-      ],
-      [
-        "in",
-        "g"
-      ],
-      [
-        "Ġlear",
-        "n"
-      ],
-      [
-        "d",
-        "o"
-      ],
-      [
-        "h",
-        "ear"
-      ],
-      [
-        "w",
-        "ear"
-      ],
-      [
-        "Ġ",
-        "do"
-      ],
-      [
-        "Ġ",
-        "hear"
-      ],
-      [
-        "Ġ",
-        "wear"
-      ],
-      [
-        "'",
-        "s"
-      ],
-      [
-        "t",
-        "o"
-      ],
-      [
-        "Ġ",
-        "to"
-      ],
-      [
-        "i",
-        "s"
-      ],
-      [
-        "Ġ",
-        "is"
-      ],
-      [
-        "e",
-        "d"
-      ],
-      [
-        "e",
-        "s"
-      ],
-      [
-        "Ġlearn",
-        "ing"
-      ]
-    ]
+    "merges": []
   }
 }

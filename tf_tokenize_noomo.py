@@ -20,13 +20,74 @@ tokenizer.normalizer = Sequence([Lowercase()])
 tokenizer.pre_tokenizer = ByteLevel()
 tokenizer.decoder = ByteLevelDecoder()
 
-trainer = BpeTrainer(vocab_size=50000, initial_alphabet=ByteLevel.alphabet(), min_frequency=2,
+trainer = BpeTrainer(vocab_size=50000, initial_alphabet=ByteLevel.alphabet(), min_frequency=1,
     special_tokens=["<pad>", "<s>", "</s>", "<unk>", "<mask>"
     ])
 
 tokenizer.train(["data/synthetic-data.txt"], trainer)
 
-tokenizer.add_tokens(["all",])
+tokenizer.add_tokens([
+    "do",
+    "ing",
+    "are",
+    "as",
+    "was",
+    "es",
+    "er",
+    "were",
+    "will",
+    "all",
+    "is",
+    "his",
+    "this",
+    "learn",
+    "hear",
+    "wear",
+    "to",
+    "ed",
+    "look",
+    "watch",
+    "work",
+    "help",
+    "need",
+    "open",
+    "visit",
+    "call",
+    "run",
+    "teach",
+    "see",
+    "they"
+    "where",
+    "there",
+    "here",
+    "no",
+    "nope",
+    "not",
+    "for",
+    "some",
+    "every",
+    "each",
+    "any",
+    "still",
+    "fill",
+    "ill",
+    "want",
+    #"be"
+    #"or"
+    #"so"
+    #"the"
+    #"an"
+    #"should"
+    #"would"
+    #"may"
+    #"say"
+    #"might"
+    #"fix"
+    #"prefix"
+    #"post"
+    #"pre"
+    #"pro"
+    ])
 
 fast_tokenizer = PreTrainedTokenizerFast(
     tokenizer_object = tokenizer,
@@ -62,8 +123,10 @@ def print_tokenization(prompt: str):
 
 print_tokenization("Learning learns learned hears is hearing")
 
-print_tokenization("Do doing does")
+print_tokenization("Do doing does teach teacher teaching")
 
-print_tokenization("Wear wears wearing")
+print_tokenization("Wear wears wearing his this are wanting wanted wants")
 
-print_tokenization("All all is")
+print_tokenization("All is as was running were will")
+
+print_tokenization("Here where there no nope not therefore anywhere still fill ill")
