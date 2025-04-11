@@ -61,3 +61,7 @@ def print_tokenization(prompt: str):
 print_tokenization("Learning learns learned hears is hearing")
 
 print_tokenization("Do doing does")
+
+print_tokenization("Wear wears wearing")
+
+#print_tokenization("All is as was")
