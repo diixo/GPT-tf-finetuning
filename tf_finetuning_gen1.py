@@ -46,16 +46,16 @@ tokens = tokenizer(lines, padding=True, truncation=True, return_tensors='np', ma
 input_ids = tokens["input_ids"]
 attention_masks = tokens["attention_mask"]
 
-assert(np.max(input_ids) < tokenizer.vocab_size)
-
 ##########################################################################################
+vocab_size = len(tokenizer.get_vocab())
+assert(np.max(input_ids) < vocab_size)
 
 config = GPT2Config(
-    vocab_size=tokenizer.vocab_size, 
+    vocab_size=vocab_size,
     n_positions=seq_length + 1,
-    n_embd=embedding_dim, 
-    n_layer=num_layers, 
-    n_head=num_heads, 
+    n_embd=embedding_dim,
+    n_layer=num_layers,
+    n_head=num_heads,
     n_inner=dff,
 
     bos_token_id=tokenizer.bos_token_id,

@@ -80,9 +80,9 @@ tokenizer_gpt = GPT2TokenizerFast.from_pretrained(tokenizer_path)
 
 encodings = tokenizer_gpt(content, padding=True, truncation=True, max_length=seq_length, return_tensors="np")
 
-
-train_data = encodings["input_ids"][:, :-1]
-labels = encodings["input_ids"][:, 1:]
+input_ids = encodings["input_ids"]
+train_data = input_ids[:, :-1]
+labels = input_ids[:, 1:]
 attention_masks = encodings["attention_mask"][:, :-1]
 
 ##########################################################################################
@@ -93,16 +93,20 @@ dataset = ds_tf.shuffle(5000).batch(batch_size, drop_remainder=True)
 def train_step(x, mask, y):
     return {"input_ids": x, "attention_mask": mask}, y
 
+
 # Defining Model optimizer, loss metrics and compiling Model ###################################
+########################################################################
+vocab_size = len(tokenizer.get_vocab())
+assert(np.max(input_ids) < vocab_size)
 
 config = GPT2Config(
+    vocab_size=vocab_size,
     n_positions=seq_length,
     n_embd=embedding_dim,
     n_layer=num_layers,
     n_head=num_heads,
     n_inner=dff,
 
-    vocab_size=tokenizer_gpt.vocab_size,
     bos_token_id=tokenizer_gpt.bos_token_id,
     eos_token_id=tokenizer_gpt.eos_token_id,
     pad_token_id=tokenizer_gpt.pad_token_id
