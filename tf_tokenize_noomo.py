@@ -192,6 +192,16 @@ tokenizer.add_tokens([
     "young",
     "we",
     "ly",
+    "us",
+    "use",
+    "usual",
+    "who",
+    "get",
+    "take",
+    "make",
+    "know",
+    "through",
+    "else",
     ])
 
 fast_tokenizer = PreTrainedTokenizerFast(
@@ -238,16 +248,18 @@ print_tokenization("All is as was running were will")
 print_tokenization("Here where there no nope not therefore anywhere still fill ill")
 
 print_tokenization(
-    "be or so the that this its an should would could may say might fix post pre pro put ation ession too also but and end")
+    "be being or so the that this its an should would could may say might fix post pre pro put ation ession too also but and end")
 
 print_tokenization("postfix prefix international putting forever somewhere never profession professional")
 
-print_tokenization("come become commit comes common")
+print_tokenization("come become commit comes common cannot can't sooner")
 
 print_tokenization("gather gathering gathered together more she because didn't")
 
 print_tokenization("Ask ask task mask tasking masking")
 
 print_tokenization("you young your yours we were mostly")
+
+print_tokenization("us use used uses using usual usually known knows")
 
 statistic(tokenizer_gpt)
