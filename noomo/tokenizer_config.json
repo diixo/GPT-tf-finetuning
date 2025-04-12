@@ -663,6 +663,14 @@
       "rstrip": false,
       "single_word": false,
       "special": false
+    },
+    "339": {
+      "content": "on",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
     }
   },
   "bos_token": "<s>",

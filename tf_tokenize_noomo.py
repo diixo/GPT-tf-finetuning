@@ -108,6 +108,7 @@ tokenizer.add_tokens([
     "ional",
     "ess",
     "istic",
+    "on",
     ])
 
 fast_tokenizer = PreTrainedTokenizerFast(
@@ -158,6 +159,6 @@ print_tokenization(
 
 print_tokenization("postfix prefix international putting forever somewhere never profession professional")
 
-print_tokenization("come become commit comes")
+print_tokenization("come become commit comes common")
 
 statistic(tokenizer_gpt)
