@@ -72,32 +72,35 @@ tokenizer.add_tokens([
     "fill",
     "ill",
     "want",
-    #"be"
-    #"or"
-    #"so"
-    #"the"
-    #"that"
-    #"this"
-    #"its"
-    #"an"
-    #"should"
-    #"would"
-    #"could"
-    #"may"
-    #"say"
-    #"might"
-    #"fix"
-    #"post"
-    #"pre"
-    #"pro"
-    #"put"
-    #"ation"
-    #"ession"
-    #"too"
-    #"also"
-    #"but"
-    #"and"
-    #"end"
+    "be",
+    "or",
+    "so",
+    "the",
+    "that",
+    "this",
+    "its",
+    "an",
+    "should",
+    "would",
+    "could",
+    "may",
+    "say",
+    "might",
+    "fix",
+    "post",
+    "pre",
+    "pro",
+    "put",
+    "ation",
+    "ession",
+    "too",
+    "also",
+    "but",
+    "and",
+    "end",
+    "never",
+    "ever",
+    "inter",
     ])
 
 fast_tokenizer = PreTrainedTokenizerFast(
@@ -141,3 +144,8 @@ print_tokenization("Wear wears wearing his this are wanting wanted wants")
 print_tokenization("All is as was running were will")
 
 print_tokenization("Here where there no nope not therefore anywhere still fill ill")
+
+print_tokenization(
+    "be or so the that this its an should would could may say might fix post pre pro put ation ession too also but and end")
+
+print_tokenization("postfix prefix international putting forever somewhere never profession professional")
