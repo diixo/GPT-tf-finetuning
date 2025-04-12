@@ -76,6 +76,9 @@ tokenizer.add_tokens([
     #"or"
     #"so"
     #"the"
+    #"that"
+    #"this"
+    #"its"
     #"an"
     #"should"
     #"would"
@@ -83,10 +86,12 @@ tokenizer.add_tokens([
     #"say"
     #"might"
     #"fix"
-    #"prefix"
     #"post"
     #"pre"
     #"pro"
+    #"put"
+    #"ation"
+    #"ession"
     ])
 
 fast_tokenizer = PreTrainedTokenizerFast(
