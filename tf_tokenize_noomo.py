@@ -255,6 +255,37 @@ tokenizer.add_tokens([
     "day",
     "year",
     "place",
+    "course",
+    "well",
+    "word",
+    "decide",
+    "discover",
+    "upon",
+    "simple",
+    "observe",
+    "require",
+    "add",
+    "once",
+    "sure",
+    "appear",
+    "both",
+    "hope",
+    "indeed",
+    "honest",
+    "truth",
+    "letter",
+    "spend",
+    "dear",
+    "side",
+    "declare",
+    "reply",
+    "told",
+    "fact",
+    "same",
+    "fother",
+    "mother",
+    "write",
+    "wrote",
     ])
 
 fast_tokenizer = PreTrainedTokenizerFast(
@@ -313,6 +344,6 @@ print_tokenization("Ask ask task mask tasking masking")
 
 print_tokenization("you young your yours we were mostly")
 
-print_tokenization("us use used uses using usual usually known knows whenever")
+print_tokenization("us use used uses using usual usually known knows whenever everyday")
 
 statistic(tokenizer_gpt)
