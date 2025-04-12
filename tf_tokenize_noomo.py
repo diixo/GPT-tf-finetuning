@@ -91,7 +91,7 @@ tokenizer.add_tokens([
     "pre",
     "pro",
     "put",
-    "ation",
+    #"ation",
     #"ession",
     "too",
     "also",
@@ -101,16 +101,17 @@ tokenizer.add_tokens([
     "never",
     "ever",
     "inter",
-    "ion",
+    "ion", #
     "tial",
     "com",
     "mit",
-    "ional",
+    "ional",#
     "ess",
     "istic",
     "on",
     "gather",
     "gether",
+    "at",
     ])
 
 fast_tokenizer = PreTrainedTokenizerFast(
