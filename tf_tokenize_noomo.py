@@ -123,10 +123,10 @@ fast_tokenizer.save_pretrained(tokenizer_path)
 
 ##########################################################################################
 
-tokenizer_gpt = GPT2TokenizerFast.from_pretrained(tokenizer_path)
+tokenizer_gpt = GPT2TokenizerFast.from_pretrained(tokenizer_path, local_files_only=True)
 
-def statistic():
-    print(f"model.config: vocab.sz={tokenizer_gpt.vocab_size},",
+def statistic(tokenizer_gpt: GPT2TokenizerFast):
+    print(f"tokenizer_gpt.config: vocab.sz={len(tokenizer_gpt.get_vocab())},",
         f"pad_token_id={tokenizer_gpt.pad_token_id},",
         f"bos_token_id={tokenizer_gpt.bos_token_id},",
         f"eos_token_id={tokenizer_gpt.eos_token_id}",
@@ -160,4 +160,4 @@ print_tokenization("postfix prefix international putting forever somewhere never
 
 print_tokenization("come become commit comes")
 
-statistic()
+statistic(tokenizer_gpt)
