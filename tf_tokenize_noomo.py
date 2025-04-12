@@ -112,6 +112,53 @@ tokenizer.add_tokens([
     "gather",
     "gether",
     "at",
+    "with",
+    "very",
+    "less",
+    "most",
+    "must",
+    "more",
+    "she",
+    "ago",
+    #"her",
+    #"been",
+    #"ish",
+    #"able",
+    #"ence",
+    #"ible",
+    #"them",
+    #"than",
+    #"then",
+    #"just",
+    #"ify",
+    #"such",
+    #"much",
+    #"ment",
+    #"self",
+    #"true",
+    #"false",
+    #"off",
+    #"body",
+    #"again",
+    #"ness",
+    #"only",
+    #"down",
+    #"back",
+    #"my",
+    #"shall",
+    #"how",
+    #"well",
+    #"good",
+    #"which",
+
+    #"up", #standup
+    #"ly",
+    #"you",
+    #"did",
+    #"while",
+    #"by",
+    #"ally",
+    #"elly",
     ])
 
 fast_tokenizer = PreTrainedTokenizerFast(
@@ -164,6 +211,6 @@ print_tokenization("postfix prefix international putting forever somewhere never
 
 print_tokenization("come become commit comes common")
 
-print_tokenization("gather gathering gathered together")
+print_tokenization("gather gathering gathered together more she")
 
 statistic(tokenizer_gpt)
