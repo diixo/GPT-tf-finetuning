@@ -92,7 +92,7 @@ tokenizer.add_tokens([
     "pro",
     "put",
     "ation",
-    "ession",
+    #"ession",
     "too",
     "also",
     "but",
@@ -101,6 +101,13 @@ tokenizer.add_tokens([
     "never",
     "ever",
     "inter",
+    "ion",
+    "tial",
+    "com",
+    "mit",
+    "ional",
+    "ess",
+    "istic",
     ])
 
 fast_tokenizer = PreTrainedTokenizerFast(
@@ -118,11 +125,12 @@ fast_tokenizer.save_pretrained(tokenizer_path)
 
 tokenizer_gpt = GPT2TokenizerFast.from_pretrained(tokenizer_path)
 
-print(f"model.config: vocab.sz={tokenizer_gpt.vocab_size},",
-    f"pad_token_id={tokenizer_gpt.pad_token_id},",
-    f"bos_token_id={tokenizer_gpt.bos_token_id},",
-    f"eos_token_id={tokenizer_gpt.eos_token_id}",
-    )
+def statistic():
+    print(f"model.config: vocab.sz={tokenizer_gpt.vocab_size},",
+        f"pad_token_id={tokenizer_gpt.pad_token_id},",
+        f"bos_token_id={tokenizer_gpt.bos_token_id},",
+        f"eos_token_id={tokenizer_gpt.eos_token_id}",
+        )
 
 ##########################################################################################
 
@@ -149,3 +157,7 @@ print_tokenization(
     "be or so the that this its an should would could may say might fix post pre pro put ation ession too also but and end")
 
 print_tokenization("postfix prefix international putting forever somewhere never profession professional")
+
+print_tokenization("come become commit comes")
+
+statistic()
