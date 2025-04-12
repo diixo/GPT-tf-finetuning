@@ -202,6 +202,59 @@ tokenizer.add_tokens([
     "know",
     "through",
     "else",
+
+    "hear",
+    "wish",
+    "enough",
+    "have",
+    "love",
+    "pair",
+    "friend",
+    "idea",
+    "life",
+    "fear",
+    "though",
+    "avoid",
+    "own",
+    "home",
+    "speak",
+    "sweet",
+    "had",
+    "house",
+    "knew",
+    "last",
+    "without",
+    "seem",
+    "door",
+    "valid",
+    "describ",
+    "walk",
+    "meet",
+    "met",
+    "mean",
+    "real",
+    "listen",
+    "certain",
+    "past",
+    "new",
+    "spent",
+    "continu",
+    "left",
+    "right",
+    "return",
+    "thought",
+    "join",
+    "answer",
+    "said",
+    "now",
+    "play",
+    "like",
+    "pass",
+    "many",
+    "one",
+    "day",
+    "year",
+    "place",
     ])
 
 fast_tokenizer = PreTrainedTokenizerFast(
@@ -260,6 +313,6 @@ print_tokenization("Ask ask task mask tasking masking")
 
 print_tokenization("you young your yours we were mostly")
 
-print_tokenization("us use used uses using usual usually known knows")
+print_tokenization("us use used uses using usual usually known knows whenever")
 
 statistic(tokenizer_gpt)

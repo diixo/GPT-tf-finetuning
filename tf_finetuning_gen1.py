@@ -19,7 +19,7 @@ epochs = 10
 
 # ---------------------------------
 
-model_path = f"models/emma-gen1-{embedding_dim}-{batch_size}-{seq_length}-{dff}-{num_heads}.h5"
+model_path = f"models/emma-noomo-{embedding_dim}-{batch_size}-{seq_length}-{dff}-{num_heads}.h5"
 
 with open("data/austen-emma.txt", "r", encoding="utf-8") as file:
     lines = file.read().splitlines()
@@ -31,7 +31,7 @@ print(f"Lines: {len(lines)}. Batches per epoch: {batches_per_epoch}")
 
 ##########################################################################################
 
-tokenizer = GPT2TokenizerFast.from_pretrained("tokenizer-gpt")
+tokenizer = GPT2TokenizerFast.from_pretrained("noomo")
 
 print(f"model.config: vocab.sz={tokenizer.vocab_size},",
     f"pad_token_id={tokenizer.pad_token_id},",
