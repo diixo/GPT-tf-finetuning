@@ -175,13 +175,6 @@ tokenizer.add_tokens([
     "always",
     "cause",
 
-    #"me",
-    #"by",
-    #"my",
-    #"her",
-    #"up", #standup
-    #"ly",
-
     "did",
     "can",
     "ally",
@@ -189,6 +182,16 @@ tokenizer.add_tokens([
     "ask",
     "mask",
     "task",
+    "her",
+    "me",
+    "by",
+    "my",
+    "up",
+    "you",
+    "your",
+    "young",
+    "we",
+    "ly",
     ])
 
 fast_tokenizer = PreTrainedTokenizerFast(
@@ -244,5 +247,7 @@ print_tokenization("come become commit comes common")
 print_tokenization("gather gathering gathered together more she because didn't")
 
 print_tokenization("Ask ask task mask tasking masking")
+
+print_tokenization("you young your yours we were mostly")
 
 statistic(tokenizer_gpt)
