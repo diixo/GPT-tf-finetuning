@@ -109,6 +109,8 @@ tokenizer.add_tokens([
     "ess",
     "istic",
     "on",
+    "gather",
+    "gether",
     ])
 
 fast_tokenizer = PreTrainedTokenizerFast(
@@ -160,5 +162,7 @@ print_tokenization(
 print_tokenization("postfix prefix international putting forever somewhere never profession professional")
 
 print_tokenization("come become commit comes common")
+
+print_tokenization("gather gathering gathered together")
 
 statistic(tokenizer_gpt)

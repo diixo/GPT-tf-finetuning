@@ -671,6 +671,22 @@
       "rstrip": false,
       "single_word": false,
       "special": false
+    },
+    "340": {
+      "content": "gather",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "341": {
+      "content": "gether",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
     }
   },
   "bos_token": "<s>",
