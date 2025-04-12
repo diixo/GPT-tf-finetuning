@@ -171,18 +171,24 @@ tokenizer.add_tokens([
     "ical",
     "other",
 
-    #"each",
+    "few",
+    "always",
+    "cause",
+
     #"me",
-    #"can",
+    #"by",
     #"my",
     #"her",
     #"up", #standup
     #"ly",
-    #"you",
-    #"did",
-    #"by",
-    #"ally",
-    #"elly",
+
+    "did",
+    "can",
+    "ally",
+    "elly",
+    "ask",
+    "mask",
+    "task",
     ])
 
 fast_tokenizer = PreTrainedTokenizerFast(
@@ -235,6 +241,8 @@ print_tokenization("postfix prefix international putting forever somewhere never
 
 print_tokenization("come become commit comes common")
 
-print_tokenization("gather gathering gathered together more she")
+print_tokenization("gather gathering gathered together more she because didn't")
+
+print_tokenization("Ask ask task mask tasking masking")
 
 statistic(tokenizer_gpt)
