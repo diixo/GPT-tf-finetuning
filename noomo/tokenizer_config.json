@@ -1841,7 +1841,7 @@
       "special": false
     },
     "486": {
-      "content": "observe",
+      "content": "observ",
       "lstrip": false,
       "normalized": true,
       "rstrip": false,
@@ -2026,6 +2026,86 @@
     },
     "509": {
       "content": "wrote",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "510": {
+      "content": "farther",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "511": {
+      "content": "disapoint",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "512": {
+      "content": "oppos",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "513": {
+      "content": "topic",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "514": {
+      "content": "except",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "515": {
+      "content": "confident",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "516": {
+      "content": "power",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "517": {
+      "content": "close",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "518": {
+      "content": "neither",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": false
+    },
+    "519": {
+      "content": "allow",
       "lstrip": false,
       "normalized": true,
       "rstrip": false,

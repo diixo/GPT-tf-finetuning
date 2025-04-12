@@ -262,7 +262,7 @@ tokenizer.add_tokens([
     "discover",
     "upon",
     "simple",
-    "observe",
+    "observ",
     "require",
     "add",
     "once",
@@ -286,6 +286,16 @@ tokenizer.add_tokens([
     "mother",
     "write",
     "wrote",
+    "farther",
+    "disapoint",
+    "oppos",
+    "topic",
+    "except",
+    "confident",
+    "power",
+    "close",
+    "neither",
+    "allow",
     ])
 
 fast_tokenizer = PreTrainedTokenizerFast(
