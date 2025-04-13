@@ -380,6 +380,7 @@ tokenizer.add_tokens([
     "robert",
     "marry",
     "dixon",
+    "enscombe",
 
     "stay",
     "cold",
@@ -470,6 +471,15 @@ tokenizer.add_tokens([
     "pianoforte",
     "appearance",
     "reflect",
+    "eager",
+    "depend",
+    "suspect",
+    "believ",
+    "acknowledg",
+    "happiness",
+    "absolut",
+    "understand",
+    "character",
     ])
 
 fast_tokenizer = PreTrainedTokenizerFast(
