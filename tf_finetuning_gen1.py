@@ -33,14 +33,6 @@ print(f"Lines: {len(lines)}. Batches per epoch: {batches_per_epoch}")
 
 tokenizer = GPT2TokenizerFast.from_pretrained("noomo")
 
-print(f"model.config: vocab.sz={tokenizer.vocab_size},",
-    f"pad_token_id={tokenizer.pad_token_id},",
-    f"bos_token_id={tokenizer.bos_token_id},",
-    f"eos_token_id={tokenizer.eos_token_id};",
-    )
-
-##########################################################################################
-
 tokens = tokenizer(lines, padding=True, truncation=True, return_tensors='np', max_length=seq_length + 1)
 
 input_ids = tokens["input_ids"]
@@ -49,6 +41,14 @@ attention_masks = tokens["attention_mask"]
 ##########################################################################################
 vocab_size = len(tokenizer.get_vocab())
 assert(np.max(input_ids) < vocab_size)
+
+print(f"tokenizer.config: vocab.sz={vocab_size},",
+    f"pad_token_id={tokenizer.pad_token_id},",
+    f"bos_token_id={tokenizer.bos_token_id},",
+    f"eos_token_id={tokenizer.eos_token_id};",
+    )
+
+##########################################################################################
 
 config = GPT2Config(
     vocab_size=vocab_size,
