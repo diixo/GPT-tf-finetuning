@@ -15,7 +15,7 @@ print(f"input_dict: {len(dict_set)}")
 
 #######################################################################
 
-with open("data/austen.txt", "r", encoding='utf-8') as f:
+with open("data/austen-emma.txt", "r", encoding='utf-8') as f:
     text = f.readlines()
 
 words_set = set()
@@ -28,7 +28,7 @@ print(f"input words: {len(words_set)}")
 #######################################################################
 
 difference = words_set - dict_set
-print(f"diff: {len(difference)}")
+print(f"diff (new words): {len(difference)}")
 
 
 with open("data/difference.json", "w", encoding="utf-8") as f:
