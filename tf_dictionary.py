@@ -15,7 +15,7 @@ print(len(dict_set))
 
 #######################################################################
 
-with open("data/austen-emma.txt", "r", encoding='utf-8') as f:
+with open("data/austen.txt", "r", encoding='utf-8') as f:
     text = f.readlines()
 
 words_set = set()
