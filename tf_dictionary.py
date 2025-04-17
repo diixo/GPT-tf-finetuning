@@ -92,7 +92,6 @@ def group_words_by_lemma(file_path, batch_size=32):
         batch = words[i:i+batch_size]
         lemmas = lemmatize_batch(batch)
 
-        # В случае если количество лемм меньше — защита
         for word, lemma in zip(batch, lemmas):
             lemma_groups[lemma].append(word)
 
@@ -101,7 +100,6 @@ def group_words_by_lemma(file_path, batch_size=32):
     return dict(lemma_groups)
 
 
-# Пример использования:
 groups = group_words_by_lemma("test.txt")
 
 for lemma, forms in groups.items():
@@ -140,7 +138,7 @@ def group_words_by_lemma_spacy(file_path):
 
 groups = group_words_by_lemma_spacy("data/db-full.txt")
 
-print(len(groups.items()))
+print(f"groups: {len(groups.items())}")
 
 with open("grouped_words.json", "w", encoding="utf-8") as f:
     json.dump(groups, f, ensure_ascii=False, indent=2)
