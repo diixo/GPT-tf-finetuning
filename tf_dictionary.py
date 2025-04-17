@@ -129,9 +129,11 @@ def group_words_by_lemma_spacy(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         words = [line.strip() for line in f if line.strip()]
 
-    for word in words:
+    for i, word in enumerate(words):
         lemma = lemmatize_spacy(word)
         lemma_groups[lemma].append(word)
+        if i % 100 == 0:
+            print(f"Processed {i}/{len(words)}")
 
     return dict(lemma_groups)
 
