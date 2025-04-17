@@ -352,6 +352,8 @@ tokenizer.add_tokens([
     "manner",
     "spirit",
 
+    #"weymouth",
+    #"windsor",
     "harriet",
     "emma",
     "elton",
