@@ -1,0 +1,5 @@
+*.pyc
+*__pycache__/
+/.idea
+t5-base/
+t5-small/
