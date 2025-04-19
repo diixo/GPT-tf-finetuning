@@ -60,6 +60,7 @@ accidentally
 accommodate
 accommodated
 accommodates
+accomodate
 accompanied
 accompany
 accompanying
@@ -157,6 +158,7 @@ adopting
 adopts
 adore
 adored
+adores
 adoring
 adorn
 adorned
@@ -180,6 +182,7 @@ affecting
 affects
 affiliate
 affiliated
+affiliates
 affirm
 affirmed
 affirms
@@ -276,6 +279,7 @@ always
 am
 amass
 amassed
+amasses
 amassing
 amaze
 amazed
@@ -318,6 +322,7 @@ annoyed
 annoying
 anomaly
 anonymized
+anonymizes
 another
 answer
 answered
@@ -361,6 +366,7 @@ appending
 appends
 applaud
 applauded
+applauds
 applied
 applies
 apply
@@ -464,6 +470,7 @@ assures
 astound
 astounded
 astounding
+astounds
 at
 ate
 attach
@@ -485,14 +492,17 @@ attended
 attends
 attenuate
 attenuated
+attenuates
 attenuating
 attest
 attested
+attests
 attract
 attracted
 attracting
 attracts
 attune
+attunes
 auctioned
 audited
 augment
@@ -504,6 +514,7 @@ authenticated
 authenticates
 authoritatively
 authorize
+authorizes
 auto
 autocalculate
 autogenerate
@@ -522,6 +533,7 @@ avails
 averaged
 avert
 averted
+averts
 avoid
 avoided
 avoiding
@@ -833,6 +845,7 @@ celebrated
 celebrates
 centralize
 certainly
+certify
 chained
 challenged
 challenging
@@ -1049,6 +1062,7 @@ composited
 compositing
 compounded
 comprehend
+comprehends
 comprehensively
 compress
 compressed
@@ -1070,6 +1084,7 @@ concatenated
 concatenates
 conceal
 concealed
+conceals
 concede
 conceded
 concedes
@@ -1720,6 +1735,8 @@ determine
 determined
 determines
 determining
+detract
+detracted
 devalue
 devalued
 devalues
@@ -1849,6 +1866,7 @@ discussed
 discusses
 discussing
 disentangled
+disjoins
 disjoint
 disjointed
 disjunctions
@@ -1865,10 +1883,12 @@ dispatches
 dispatching
 dispel
 dispelled
+dispels
 dispense
 dispenses
 displace
 displaced
+displaces
 display
 displayed
 displaying
@@ -1898,7 +1918,9 @@ dissatisfy
 dissect
 dissected
 dissecting
+dissects
 disseminate
+disseminates
 dissing
 dissipate
 dissipated
@@ -1968,6 +1990,7 @@ dominating
 don't
 donate
 donated
+donates
 done
 dont
 double
@@ -1982,6 +2005,7 @@ downloads
 downs
 downsize
 downsized
+downsizes
 downward
 downwards
 dragged
@@ -2098,6 +2122,7 @@ elevating
 elicit
 elicited
 eliciting
+elicits
 elided
 elif
 eliminate
@@ -2129,6 +2154,7 @@ embellish
 embellished
 embellishes
 embodied
+embodies
 embody
 embrace
 embraced
@@ -2140,7 +2166,6 @@ emit
 emits
 emitted
 emitting
-emotionally
 emphasize
 emphasized
 emphasizes
@@ -2167,6 +2192,7 @@ enables
 enabling
 enact
 enacted
+enacts
 encapsulate
 encapsulated
 encapsulates
@@ -2204,6 +2230,7 @@ ending
 endlessly
 endorse
 endorsed
+endorses
 ends
 enforce
 enforced
@@ -2262,6 +2289,7 @@ entering
 enters
 entertain
 entertained
+entertains
 entirely
 entitle
 entitles
@@ -2336,6 +2364,7 @@ everywhere
 evict
 evicted
 evicting
+evicts
 evidenced
 evidently
 evinced
@@ -2344,6 +2373,7 @@ evoked
 evokes
 evoking
 evolute
+evolutes
 evolve
 evolved
 evolves
@@ -2431,6 +2461,7 @@ explicit
 explicitly
 explode
 exploded
+explodes
 exploding
 exploit
 exploited
@@ -2441,6 +2472,7 @@ exploring
 exponentially
 exponentiate
 exponentiated
+exponentiates
 export
 exported
 exporting
@@ -2451,6 +2483,7 @@ exposes
 exposing
 expound
 expounded
+expounds
 express
 expressed
 expresses
@@ -2479,6 +2512,7 @@ extremely
 eyeing
 fabricate
 fabricated
+fabricates
 faced
 facilitate
 facilitated
@@ -3014,6 +3048,7 @@ host
 hosts
 hover
 hovered
+hovers
 how
 how's
 howbeit
@@ -3056,11 +3091,11 @@ ignores
 ignoring
 illuminate
 illuminated
+illuminates
 illustrate
 illustrated
 illustrates
 illustrating
-imaginary
 imagine
 imagined
 imagines
@@ -3077,6 +3112,7 @@ immerse
 immersed
 immerses
 immigrated
+immigrates
 impact
 impacted
 impacting
@@ -3124,6 +3160,7 @@ improved
 improves
 improving
 impute
+imputes
 in
 in-lining
 in-time
@@ -3155,7 +3192,6 @@ increase
 increased
 increases
 increasing
-increasingly
 incredibly
 incrementally
 incremented
@@ -3177,6 +3213,7 @@ indicates
 indicating
 indict
 indicted
+indicts
 indirectly
 individualize
 individualized
@@ -3187,6 +3224,7 @@ induces
 induct
 inducted
 inductively
+inducts
 inevitably
 infect
 infected
@@ -3214,6 +3252,7 @@ informally
 informed
 informing
 informs
+infringe
 infringed
 infringes
 infuses
@@ -3228,6 +3267,7 @@ inheriting
 inherits
 inhibit
 inhibited
+inhibits
 init
 initialize
 initialized
@@ -3259,6 +3299,7 @@ inquires
 insample
 inscribe
 inscribed
+inscribes
 insert
 inserted
 inserters
@@ -3299,6 +3340,8 @@ instructed
 instructing
 instructs
 insure
+insured
+insures
 int
 int16
 int32
@@ -3330,7 +3373,6 @@ interconnected
 interest
 interested
 interesting
-interestingly
 interfere
 interfered
 interferes
@@ -3360,11 +3402,13 @@ intersected
 intersects
 intervene
 intervened
+intervenes
 interview
 into
 intract
 intracted
 intrigued
+intrigues
 intriguing
 intrinsically
 introduce
@@ -3375,6 +3419,7 @@ introspect
 intuitively
 inure
 inured
+inures
 invade
 invaded
 invades
@@ -3399,6 +3444,7 @@ investing
 invests
 invigorate
 invigorated
+invigorates
 invite
 invited
 invites
@@ -3465,7 +3511,6 @@ justified
 justifies
 justify
 keep
-keeper
 keeping
 keeps
 kept
@@ -3506,6 +3551,7 @@ lastly
 lasts
 latch
 latched
+latches
 late
 lately
 later
@@ -3513,6 +3559,7 @@ laterally
 latest
 latterly
 laugh
+laughes
 launch
 launched
 launches
@@ -3530,6 +3577,7 @@ leaks
 lean
 leaned
 leaning
+leans
 leap
 leapt
 learn
@@ -3544,6 +3592,7 @@ leaving
 led
 left
 legalize
+legalized
 legalizes
 legibly
 legitimate
@@ -3559,7 +3608,6 @@ lengthen
 less
 let
 let's
-let`s
 letdown
 lets
 lettered
@@ -3677,7 +3725,6 @@ magnifies
 magnify
 magnifying
 mail
-mailbox
 mailed
 mainly
 maintain
@@ -3721,6 +3768,7 @@ matches
 matching
 materialize
 materialized
+materializes
 mathematically
 matter
 mattered
@@ -3742,8 +3790,9 @@ meanwhile
 measure
 measured
 measuring
-mechanically
 meddle
+meddled
+meddles
 mediate
 mediated
 mediates
@@ -3810,7 +3859,9 @@ misled
 mismatch
 mismatched
 mismatches
+misplace
 misplaced
+misplaces
 misread
 misreads
 miss
@@ -4002,12 +4053,15 @@ obeying
 obeys
 obfuscate
 obfuscated
+obfuscates
 obfuscating
 objected
 objectified
+objectifies
 objectify
 obligate
 obligated
+obligates
 oblige
 obliged
 obliges
@@ -4144,6 +4198,7 @@ outcomes
 outcoming
 outdate
 outdated
+outdates
 outdid
 outdo
 outdone
@@ -4184,6 +4239,7 @@ overcommit
 overcommitted
 overcomplicate
 overcomplicated
+overcomplicates
 overcrowding
 overdetermined
 overdid
@@ -4330,6 +4386,7 @@ penalizing
 pend
 pending
 penetrated
+penetrates
 per
 perceive
 perceived
@@ -4349,6 +4406,7 @@ permits
 permitted
 permitting
 permutated
+permutates
 permute
 permuted
 permutes
@@ -4702,13 +4760,13 @@ quantify
 quantifying
 quantize
 quantized
+quantizes
 queried
 queued
 queuing
 quick
 quickened
 quickly
-quickstart
 quietly
 quire
 quired
@@ -4923,7 +4981,6 @@ rectified
 rectifies
 rectify
 recurring
-recursively
 recycle
 recycled
 red
@@ -4939,6 +4996,7 @@ redefined
 redefines
 redefining
 redeployed
+redeploys
 redesigned
 redid
 redirect
@@ -4963,16 +5021,21 @@ reentered
 reenters
 reentry
 reestablish
+reestablished
+reestablishes
 reexamine
 reexamined
 reexamines
 refactored
+refactors
 refer
 referenced
 referencing
 referred
 referring
 refers
+refetched
+refetches
 refetching
 refile
 refiled
@@ -5050,6 +5113,7 @@ reimplement
 reimplemented
 reimplementes
 reindex
+reindexed
 reindexing
 reinforce
 reinforced
@@ -5160,7 +5224,6 @@ remissed
 remodel
 remodeled
 remotely
-removable
 remove
 removed
 removes
@@ -5284,6 +5347,7 @@ rescinded
 rescinding
 rescue
 rescued
+rescues
 research
 researched
 researches
@@ -5317,6 +5381,8 @@ resized
 resizes
 resizing
 reskill
+reskilled
+reskills
 resolve
 resolved
 resolves
@@ -5376,6 +5442,8 @@ resurrected
 resurrecting
 resurrects
 resync
+resynced
+resyncs
 retain
 retained
 retaining
@@ -5384,6 +5452,7 @@ retake
 retaken
 retargeted
 retell
+retells
 retest
 rethink
 rethinks
@@ -5451,6 +5520,7 @@ revived
 revives
 reviving
 revoke
+revoked
 revokes
 revolutionize
 revolutionized
@@ -5609,6 +5679,7 @@ segregate
 segregated
 segregates
 segue
+segued
 segues
 select
 selected
@@ -7096,6 +7167,10 @@ abandonment
 abbreviation
 abbreviations
 aberrant
+abhor
+abhorred
+abhorrence
+abhorrent
 abilities
 ability
 ablation
@@ -7103,7 +7178,12 @@ ablations
 abnormal
 abnormality
 aboard
+abolishing
 abolition
+abominably
+abominate
+abominates
+abomination
 abortion
 abounding
 above-mentioned
@@ -7126,7 +7206,9 @@ abundance
 abundant
 abundantly
 abused
+abuses
 abusing
+abusive
 academic
 academy
 acceded
@@ -7151,6 +7233,7 @@ accident
 accidental
 acclaim
 acclaimed
+accommodating
 accompaniment
 accomplishment
 accomplishments
@@ -7182,16 +7265,23 @@ acknowledgment
 acknowledgments
 acoustic
 acoustics
+acquaint
 acquaintance
+acquaintances
 acquaintanceship
+acquainting
+acquiesce
 acquiesced
 acquiescence
+acquiesence
 acquirements
 acquisition
 acquisitions
 acquit
+acquits
 acquittal
 acquitted
+acquitting
 acronym
 acronyms
 action
@@ -7213,6 +7303,8 @@ activity
 actual
 actuality
 actuated
+acutely
+acutest
 acyclic
 ad
 ad-hoc
@@ -7260,6 +7352,7 @@ adjustments
 admin
 administer
 administered
+administrating
 administration
 administrative
 administrator
@@ -7352,6 +7445,7 @@ ages
 agglomeration
 agglomerative
 aggrandise
+aggravating
 aggregation
 aggregations
 aggregator
@@ -7490,6 +7584,7 @@ all-new
 all-time
 allay
 allegorical
+alleviating
 alleviation
 alleviations
 alliance
@@ -7834,6 +7929,10 @@ as-is
 asap
 ascent
 ascertain
+ascertained
+ascertaining
+ascertainment
+ascertains
 ascii
 asciidoc
 asf
@@ -7851,6 +7950,7 @@ aspersion
 aspiration
 aspirations
 assailed
+assaults
 assemblage
 assembler
 assemblers
@@ -7871,6 +7971,9 @@ assessment
 assessments
 asset
 assets
+assiduities
+assiduous
+assiduously
 assignable
 assignment
 assignments
@@ -8066,11 +8169,16 @@ average
 averages
 averaging
 averting
+avocation
+avocations
 avoidance
 avow
+avowal
 avowed
 avowedly
 awaitable
+awakening
+awaking
 awareness
 awe
 awes
@@ -8182,6 +8290,8 @@ beaming
 bearable
 bearing
 beating
+beautified
+beautifier
 beautiful
 beautifulsoup
 beauty
@@ -8655,7 +8765,9 @@ carefulness
 careless
 carelessly
 carelessness
+caress
 caresses
+caressing
 carriage
 carry-on
 cars
@@ -8680,8 +8792,11 @@ categorization
 category
 causal
 causality
+causeless
+causers
 caution
 cautioned
+cautioning
 cautious
 cautiously
 cautiousness
@@ -8691,6 +8806,7 @@ cca
 cd
 ceiling
 celebrating
+celebration
 cell
 cellphone
 cellphones
@@ -8713,6 +8829,7 @@ centroid
 centroids
 ceo
 certain
+certainties
 certainty
 certificate
 certificates
@@ -8933,9 +9050,11 @@ cloud-based
 cloud-computing
 cloud-enabled
 cloud-native
+clouded
 cloudless
 cloudnative
 clouds
+cloudy
 clr
 club
 clue
@@ -9304,8 +9423,10 @@ concealing
 concealment
 conceit
 conceited
+conceits
 conceivable
 conceivably
+conceiving
 concentrating
 concentration
 concentrations
@@ -9668,6 +9789,9 @@ countdown
 countenance
 counter
 counter-clockwise
+counteracting
+counteraction
+counteractions
 counterclockwise
 countered
 countermeasure
@@ -10011,6 +10135,9 @@ dearest
 dearly
 dears
 debate
+debated
+debates
+debating
 debian
 debugger
 debuggers
@@ -10018,9 +10145,14 @@ debut
 decade
 decades
 deceit
+deceitful
 deceived
+deceivers
+deceives
 deceleration
 december
+decencies
+decency
 decent
 decentralization
 decentralized
@@ -10030,6 +10162,7 @@ deceptive
 decidedly
 decimal
 decimals
+decipher
 deciphered
 decision
 decision-making
@@ -10296,6 +10429,7 @@ destructured
 destructuring
 desultory
 detachable
+detaching
 detachment
 detail-oriented
 details
@@ -11294,6 +11428,7 @@ evasive
 evening
 evenings
 evenly
+evenness
 event
 event-based
 event-driven
@@ -11309,6 +11444,7 @@ every-day
 everyday
 everytime
 evidence
+evidences
 evident
 evidential
 evolution
@@ -11336,6 +11472,7 @@ excepted
 exception-handling
 exceptional
 exceptions
+excepts
 excess
 excesses
 excessive
@@ -13062,6 +13199,7 @@ incomparable
 incompatibilities
 incompatibility
 incompatible
+incompleted
 incompleteness
 incomprehensible
 inconceivable
@@ -13212,6 +13350,7 @@ inferiority
 inferring
 infersent
 infinite
+infinitive
 infinity
 inflamed
 inflection
@@ -13257,6 +13396,7 @@ infrequent
 infrequently
 infringement
 infringements
+infringing
 infuse
 infusing
 infusion
@@ -13413,6 +13553,7 @@ insulting
 insuperable
 insurance
 insurances
+insuring
 intact
 intangible
 integer
@@ -13521,6 +13662,7 @@ internships
 interoperability
 interoperable
 interoperates
+interoperating
 interplay
 interpolating
 interpolation
@@ -13536,6 +13678,7 @@ interpretative
 interpreter
 interpreters
 interprocess
+interrelating
 interruptible
 interrupting
 interruption
@@ -13585,6 +13728,7 @@ intuition
 intuitions
 intuitive
 intune
+inuring
 inutility
 inv
 invalid
@@ -13759,6 +13903,7 @@ it-startups
 item
 item's
 itemised
+itemizing
 items
 itemscontrol
 itemspanel
@@ -13821,6 +13966,7 @@ jetbrains
 jframe
 jinja
 jira
+jittering
 jmeter
 jmock
 jmx
@@ -14008,6 +14154,7 @@ lagged
 lagging
 lagrange
 lagrangian
+lags
 lambda
 lambda-expression
 lambdas
@@ -14015,6 +14162,7 @@ lan
 landing
 landmark
 landmarks
+lands
 landscape
 landscapes
 lane
@@ -14048,6 +14196,7 @@ later-date
 later-stage
 lateral
 laterals
+lates
 latex
 latin
 latitude
@@ -14883,6 +15032,8 @@ misinformation
 misinterpretation
 mislabeled
 mismanagement
+mismatching
+misplacing
 miss-classified
 missingness
 mission
@@ -14943,6 +15094,7 @@ modelling
 models
 modem
 modems
+moderating
 moderation
 moderator
 moderators
@@ -15419,7 +15571,6 @@ nn
 no-brainer
 no-code
 no-sql
-nobility
 noble
 nobody
 nocache
@@ -15598,6 +15749,7 @@ north
 nosql
 not-in-place
 notable
+notating
 notation
 notations
 note-taking
@@ -17647,14 +17799,17 @@ reimagine
 reimagined
 reimagining
 reimplementation
+reindexes
 reinforcement
 reinforcements
 reinforcing
 reinitialization
 reinitializing
+reinsertion
 reinterpretation
 reintroduced
 reintroducing
+reinvention
 reiterating
 rejection
 rejections
@@ -17829,10 +17984,14 @@ requirements
 requisite
 requisition
 requisitions
+reranked
 reranking
 rerouted
+resamples
 rescheduled
+rescheduling
 rescript
+rescuing
 researcher
 researchers
 resection
@@ -17841,6 +18000,7 @@ reseller
 resellers
 resemblance
 resembling
+resending
 resent
 resentfully
 resentment
@@ -17922,12 +18082,14 @@ resumption
 resurgence
 resynchronization
 resynchronizations
+resyncing
 retail
 retailer
 retailers
 retailing
 retargatable
 retargeting
+retelling
 retention
 retentive
 retesting
@@ -18319,6 +18481,7 @@ segmentations
 segmenting
 segments
 segregating
+segueing
 seize
 seized
 seizure
