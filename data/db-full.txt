@@ -3549,6 +3549,7 @@ latest
 latterly
 laugh
 laughes
+laughs
 launch
 launched
 launches
@@ -4406,6 +4407,7 @@ personalized
 personally
 persuade
 persuaded
+persuades
 persuasively
 pertaining
 pervade
@@ -5360,6 +5362,7 @@ resign
 resist
 resisted
 resisting
+resists
 resize
 resized
 resizes
@@ -5901,6 +5904,7 @@ spaced
 spamming
 spanned
 spans
+sparked
 sparsely
 spawn
 spawned
@@ -6898,7 +6902,6 @@ was
 washed-out
 washing
 wasn't
-wasn`t
 waste
 wasted
 wastes
@@ -6913,10 +6916,6 @@ we'd
 we'll
 we're
 we've
-we`d
-we`ll
-we`re
-we`ve
 wear
 weigh
 weighs
@@ -6930,14 +6929,11 @@ well-known
 went
 were
 weren't
-weren`t
 what
 what'll
 what're
 what's
 what-if
-what`ll
-what`s
 whatever
 whatever's
 whatfor
@@ -6982,9 +6978,6 @@ who'll
 who're
 who's
 who've
-who`ll
-who`re
-who`s
 whoever
 whole
 wholly
@@ -6993,7 +6986,6 @@ whomever
 whose
 why
 why's
-why`s
 widely
 widen
 widening
@@ -7022,7 +7014,6 @@ woke
 woken
 won
 won't
-won`t
 wonder
 wondered
 wondering
@@ -7068,10 +7059,6 @@ you'd
 you'll
 you're
 you've
-you`d
-you`ll
-you`re
-you`ve
 your
 your're
 your's
@@ -7697,6 +7684,7 @@ animations
 animators
 anime
 anisotropic
+annealed
 anniversary
 annotates
 annotating
@@ -8135,6 +8123,7 @@ auxiliary
 availability
 availing
 avatar
+avatars
 average
 averages
 averaging
@@ -8307,6 +8296,7 @@ benefiting
 benefits
 benefitting
 bernoulli
+bert
 best
 best-covered
 best-in-class
@@ -8812,6 +8802,7 @@ ces
 cgi
 chain
 chain-of-thought
+chain-of-thoughts
 chainer
 chaining
 chains
@@ -11775,6 +11766,7 @@ fenced
 fervour
 festivity
 fetching
+few-shot
 ffmpeg
 fiasco
 fibonacci
@@ -14167,6 +14159,7 @@ latencies
 latency
 lateness
 latent
+latents
 later-date
 later-stage
 lateral
@@ -14187,6 +14180,7 @@ law
 law's
 lawfully
 lawless
+laws
 lawsuit
 lawyer
 layer
@@ -14922,6 +14916,7 @@ millions
 millisecond
 milliseconds
 mimic
+mimics
 min
 min-max
 minced
@@ -15272,6 +15267,7 @@ multifunctional
 multifunctionality
 multigraphs
 multigrid
+multihead
 multiindex
 multilabel
 multilanguage
@@ -16380,6 +16376,7 @@ pathnames
 pathological
 paths
 pathway
+pathways
 patience
 patient
 patiently
@@ -19207,6 +19204,7 @@ stabbed
 stability
 stabilization
 stable
+stablediffusion
 stables
 stably
 stack
@@ -19617,6 +19615,7 @@ successive
 successively
 successless
 successor
+successors
 succinct
 succinctly
 sudden
@@ -20032,6 +20031,7 @@ text-based
 text-centric
 text-feature
 text-generation
+text-image
 text-only
 text-preprocessing
 text-processing
