@@ -187,7 +187,6 @@ affirm
 affirmed
 affirms
 afford
-affordable
 afforded
 affords
 affront
@@ -801,7 +800,6 @@ captured
 captures
 capturing
 care
-carefully
 cares
 caring
 carried
@@ -882,7 +880,6 @@ chop
 chopped
 chose
 chosen
-churn
 churning
 circled
 circulate
@@ -940,7 +937,6 @@ closely
 closer
 closes
 closing
-clue
 clued
 clustered
 clustering
@@ -1070,7 +1066,6 @@ comprised
 comprises
 comprising
 compromised
-computationally
 compute
 computed
 computerize
@@ -1369,7 +1364,6 @@ crisply
 critically
 criticize
 criticized
-critique
 critiqued
 crop
 cropped
@@ -1671,8 +1665,6 @@ dequeues
 dereferenced
 dereferencing
 derivation
-derivative
-derivatives
 derive
 derived
 derives
@@ -2077,7 +2069,6 @@ eat
 eaten
 eats
 echoed
-eclipse
 eclipsed
 edit
 edited
@@ -2376,6 +2367,7 @@ evolved
 evolves
 evolving
 exact
+exacted
 exactly
 exaggerate
 exaggerated
@@ -2389,6 +2381,8 @@ exceeded
 exceeding
 exceedingly
 exceeds
+excelled
+excels
 except
 excepting
 exception
@@ -2875,7 +2869,6 @@ grappled
 grapples
 grasp
 greater
-greatly
 greet
 greeted
 greeting
@@ -4712,7 +4705,6 @@ prune
 pruned
 prunes
 public
-publicly
 publish
 published
 publishes
@@ -5919,7 +5911,6 @@ specialize
 specialized
 specializes
 specially
-specifically
 specified
 specifies
 specify
@@ -6377,8 +6368,6 @@ till
 tilted
 time-to-time
 timely
-timestamp
-timestamps
 tinkering
 tired
 tmp
@@ -6637,7 +6626,6 @@ unfurls
 unhide
 unified
 unifies
-uniformly
 unify
 unifying
 uninformed
@@ -6704,7 +6692,6 @@ unqualified
 unquestionably
 unquote
 unravel
-unraveling
 unread
 unreasonably
 unrecognized
@@ -10262,7 +10249,6 @@ delidding
 delightful
 delightfully
 delights
-delimited
 delimiter
 delimiters
 delineation
@@ -10926,6 +10912,7 @@ dubbing
 dubious
 duckduckgo
 duckduckgo's
+dull
 dummy
 dump
 dumping
@@ -11437,6 +11424,7 @@ evolutive
 evolvable
 ex
 exabytes
+exacting
 exactness
 exaggerating
 exaggeration
@@ -11453,6 +11441,7 @@ excellent
 excellently
 excepted
 exception-handling
+exceptionable
 exceptional
 exceptions
 excepts
@@ -11525,6 +11514,8 @@ expendable
 expense
 expenses
 expensive
+expensively
+expensiveness
 experienced
 experiences
 experiencing
@@ -11830,6 +11821,7 @@ finale
 finality
 finals
 financed
+finances
 financial
 financially
 financing
@@ -12159,6 +12151,7 @@ full-text
 full-time
 fuller
 fullest
+fullness
 fullremote
 fullscreen
 fullstack
@@ -12656,6 +12649,7 @@ headsets
 heal
 healed
 health
+healthiness
 healthy
 heap
 heap-based
@@ -12684,7 +12678,6 @@ heights
 heir
 heiress
 held-up
-hello
 helloworld
 helpdesk
 helper
@@ -14118,7 +14111,6 @@ kubernetes-related
 kubernetes-service
 lab
 label
-labeled
 labeling
 labelling
 labels
@@ -14522,7 +14514,6 @@ lower-casing
 lowerbound
 lowercase
 lowered
-lowering
 lowest
 lowly
 lows
@@ -16530,8 +16521,6 @@ pertinent
 pertinently
 perturbation
 perusal
-pervade
-pervaded
 pervasive
 pessimization
 petabyte
@@ -19028,7 +19017,6 @@ solvable
 solver
 solvers
 somefunction
-someone's
 sometime
 son
 song
@@ -20086,7 +20074,6 @@ theoretical
 theories
 theorists
 theory
-there'll
 thereabouts
 thermal
 thesaurus
@@ -21689,7 +21676,6 @@ weirder
 weirdest
 weirdly
 weirdness
-welcome
 welcoming
 welfare
 well
@@ -21720,6 +21706,7 @@ well-suited
 well-targeted
 well-tuned
 well-written
+wellness
 wept
 west
 western

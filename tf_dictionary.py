@@ -9,7 +9,12 @@ def str_tokenize_words(s: str, stopwords=set()):
 
 
 with open("data/db-full.txt", "r", encoding="utf-8") as f:
-    dict_set = set([line.strip() for line in f if line.strip()])
+    words = [line.strip() for line in f if line.strip()]
+
+dict_set = set()
+
+for w in words:
+    print(w) if w in dict_set else dict_set.add(w)
 
 print(f"dict words: {len(dict_set)}")
 
