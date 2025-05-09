@@ -2,6 +2,7 @@ from transformers import TFGPT2LMHeadModel, GPT2Config, GPT2TokenizerFast
 import tensorflow as tf
 from pathlib import Path
 import re
+import numpy as np
 
 
 def str_tokenize_words(s: str, stopwords=set()):

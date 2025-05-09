@@ -21,8 +21,8 @@ tokenizer.pre_tokenizer = ByteLevel()
 tokenizer.decoder = ByteLevelDecoder()
 
 trainer = BpeTrainer(vocab_size=50000, initial_alphabet=ByteLevel.alphabet(), min_frequency=1,
-    special_tokens=["<pad>", "<s>", "</s>", "<unk>", "<mask>"
-    ])
+                    special_tokens=["<pad>", "<s>", "</s>", "<unk>", "<mask>"]
+                    )
 
 tokenizer.train(["data/synthetic-data.txt"], trainer)
 
