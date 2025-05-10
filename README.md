@@ -1,6 +1,6 @@
 # GPT-tf-keras
 
-* `tf_dictionary`: lemmatize db_full.txt to grouped_words.json
+* `tf_grouping`: lemmatize db_full.txt to grouped_words.json
 
 * `tf_tokenizer_noomo`: create **noomo** model by selected words
 
