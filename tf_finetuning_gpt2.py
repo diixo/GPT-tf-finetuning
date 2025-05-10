@@ -1,4 +1,4 @@
-from transformers import GPT2Tokenizer, TFGPT2LMHeadModel, GPT2Config, AutoTokenizer, GPT2TokenizerFast, GenerationConfig
+from transformers import GPT2Tokenizer, TFGPT2LMHeadModel, GPT2Config, GPT2TokenizerFast, GenerationConfig
 import tensorflow as tf
 from pathlib import Path
 import re
@@ -33,11 +33,6 @@ tokenizer = GPT2TokenizerFast.from_pretrained("gpt2")
 
 tokenizer.pad_token = tokenizer.eos_token
 
-print(f"model.config: vocab.sz={tokenizer.vocab_size},",
-    f"pad_token_id={tokenizer.pad_token_id},",
-    f"bos_token_id={tokenizer.bos_token_id},",
-    f"eos_token_id={tokenizer.eos_token_id};",
-    )
 
 config = GPT2Config(
     vocab_size=tokenizer.vocab_size, 
@@ -52,6 +47,14 @@ config = GPT2Config(
     pad_token_id=tokenizer.pad_token_id
 )
 
+model = TFGPT2LMHeadModel(config)
+
+print(f"model.config: vocab.sz={tokenizer.vocab_size},",
+    f"pad_token_id={model.config.pad_token_id},",
+    f"bos_token_id={model.config.bos_token_id},",
+    f"eos_token_id={model.config.eos_token_id}",
+    )
+
 ##########################################################################################
 
 tokens = tokenizer(lines, padding=True, truncation=True, return_tensors='np', max_length=seq_length + 1)
@@ -60,8 +63,6 @@ input_ids = tokens["input_ids"]
 attention_masks = tokens["attention_mask"]
 
 ##########################################################################################
-
-model = TFGPT2LMHeadModel(config)
 
 optimizer = tf.keras.optimizers.AdamW(learning_rate=learning_rate)
 

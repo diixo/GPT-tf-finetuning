@@ -66,7 +66,6 @@ config = GPT2Config(
     pad_token_id=tokenizer.pad_token_id
 )
 
-
 model = TFGPT2LMHeadModel(config)
 
 optimizer = tf.keras.optimizers.AdamW(learning_rate=learning_rate)

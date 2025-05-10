@@ -94,7 +94,7 @@ def train_step(x, mask, y):
     return {"input_ids": x, "attention_mask": mask}, y
 
 
-# Defining Model optimizer, loss metrics and compiling Model ###################################
+# Defining Model optimizer, loss metrics and compiling Model #############################
 ########################################################################
 vocab_size = len(tokenizer.get_vocab())
 assert(np.max(input_ids) < vocab_size)
@@ -126,7 +126,7 @@ loss = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
 metric = tf.keras.metrics.SparseCategoricalAccuracy('accuracy')
 model.compile(optimizer=optimizer, loss=loss, metrics=[metric])
 
-###################################################
+##########################################################################################
 
 if Path(model_path).exists():
     dummy_input = tf.ones((1, seq_length), dtype=tf.int32)

@@ -11,7 +11,7 @@
 
 ### tokenizer-gpt
 
-* `tf_finetuning_gen2`: create **tokenizer-gpt** model and train processed-austen-emma.txt
+* `tf_finetuning_gen2`: create **tokenizer-gpt** model and train on processed-austen-emma.txt
 
 * `tf_finetuning`: use **tokenizer-gpt** model train on austen-emma.txt
 
