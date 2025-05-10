@@ -39,7 +39,7 @@ print(f"diff (new words): {len(difference)}")
 with open("data/difference.json", "w", encoding="utf-8") as f:
     json.dump(sorted(difference), f, ensure_ascii=False, indent=4)
 
-exit(0)
+#exit(0)
 
 #######################################################################
 """
@@ -117,6 +117,7 @@ from collections import defaultdict
 import json
 
 
+#python -m spacy download en_core_web_sm
 nlp = spacy.load("en_core_web_sm")
 
 def find_common_prefix(str1, str2):
