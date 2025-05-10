@@ -60,7 +60,6 @@ accidentally
 accommodate
 accommodated
 accommodates
-accomodate
 accompanied
 accompany
 accompanying
@@ -9698,6 +9697,7 @@ coordinates
 coordinating
 coordination
 coordinator
+copilot
 copious
 coprocessor
 coprocessors
