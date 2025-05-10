@@ -2,7 +2,7 @@
 
 * `tf_grouping`: lemmatize db_full.txt to grouped_words.json
 
-* `tf_tokenizer_noomo`: create **noomo** model by selected words
+* `tf_noomo`: create **noomo** model by selected words
 
 * `tf_finetuning_gen1`: use **noomo** model train on austen-emma.txt
 
