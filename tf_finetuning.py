@@ -79,8 +79,8 @@ model.fit(dataset, epochs=epochs)
 
 # Making Prediction and Saving Model ###########################################################
 
-def generate_text(start, model):
-    input_token_ids = tokenizer_gpt.encode(start, return_tensors='tf')
+def generate_text(start_str: str, model: TFGPT2LMHeadModel):
+    input_token_ids = tokenizer_gpt.encode(start_str, return_tensors='tf')
     output = model.generate(input_token_ids,
         max_length = 200,
         num_beams = 5,
