@@ -104,7 +104,7 @@ else:
 model.summary()
 
 
-def generate_text(model: TFGPT2LMHeadModel, tokenizer: GPT2Tokenizer, prompt: str, max_length = seq_length, do_sample = True):
+def generate_text(prompt: str, model: TFGPT2LMHeadModel, tokenizer: GPT2TokenizerFast, max_length = seq_length, do_sample = True):
 
     assert(max_length <= seq_length)
 
@@ -138,10 +138,9 @@ def generate_text(model: TFGPT2LMHeadModel, tokenizer: GPT2Tokenizer, prompt: st
     )
     result = output[0]
     #tokenizer.convert_ids_to_tokens(result, skip_special_tokens=True)
-
     return tokenizer.decode(result, skip_special_tokens=True)
 
 
-result = generate_text(model, tokenizer, "Emma knows")
+result = generate_text("Emma knows", model, tokenizer)
 
 print(f"Final result: {result}")

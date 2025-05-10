@@ -142,11 +142,11 @@ model.summary()
 
 # Making Prediction and Saving Model ###########################################################
 
-def generate_text(prompt: str, model: TFGPT2LMHeadModel, max_length = seq_length, do_sample = True):
+def generate_text(prompt: str, model: TFGPT2LMHeadModel, tokenizer: GPT2TokenizerFast, max_length = seq_length, do_sample = True):
 
     assert(max_length <= seq_length)
 
-    encodings = tokenizer_gpt([prompt], return_tensors='tf')
+    encodings = tokenizer([prompt], return_tensors='tf')
 
     if do_sample:
         gen_config = GenerationConfig(
@@ -172,11 +172,11 @@ def generate_text(prompt: str, model: TFGPT2LMHeadModel, max_length = seq_length
         generation_config = gen_config
     )
     result = output[0]
-    print(tokenizer_gpt.convert_ids_to_tokens(result))
+    print(tokenizer.convert_ids_to_tokens(result))
 
-    #print(tokenizer_gpt.pad_token_id, tokenizer_gpt.bos_token_id, tokenizer_gpt.eos_token_id)
+    #print(tokenizer.pad_token_id, tokenizer.bos_token_id, tokenizer.eos_token_id)
     # use skip_special_tokens=True, because we use padding as special symbol
-    return tokenizer_gpt.decode(result, skip_special_tokens=True)
+    return tokenizer.decode(result, skip_special_tokens=True)
 
 
-print(generate_text("Emma knows", model))
+print(generate_text("Emma knows", model, tokenizer_gpt))
