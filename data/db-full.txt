@@ -3119,6 +3119,7 @@ impend
 impending
 impends
 impersonate
+impersonates
 impersonating
 implement
 implemented
@@ -13594,7 +13595,6 @@ interestingly
 interests
 interface
 interface-based
-interface-implementation
 interfaced
 interfaces
 interfacing

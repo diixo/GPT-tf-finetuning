@@ -7047,6 +7047,7 @@
   ],
   "impersonate": [
     "impersonate",
+    "impersonates",
     "impersonating",
     "impersonated"
   ],
@@ -29929,7 +29930,6 @@
   "interface": [
     "interface",
     "interface-based",
-    "interface-implementation",
     "interfaced",
     "interfaces",
     "interfacing"
