@@ -1,4 +1,4 @@
-from transformers import GPT2Tokenizer, TFGPT2LMHeadModel, GPT2Config, GPT2TokenizerFast, GenerationConfig
+from transformers import TFGPT2LMHeadModel, GPT2Config, GPT2TokenizerFast, GenerationConfig
 import tensorflow as tf
 from pathlib import Path
 import re
