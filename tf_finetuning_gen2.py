@@ -95,8 +95,8 @@ def train_step(x, mask, y):
 
 
 # Defining Model optimizer, loss metrics and compiling Model #############################
-########################################################################
-vocab_size = len(tokenizer.get_vocab())
+##########################################################################################
+vocab_size = len(tokenizer_gpt.get_vocab())
 assert(np.max(input_ids) < vocab_size)
 
 config = GPT2Config(
