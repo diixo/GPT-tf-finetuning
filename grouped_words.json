@@ -1167,8 +1167,7 @@
     "automated",
     "automates",
     "automating",
-    "automated-testing",
-    "automated-tests"
+    "automated-testing"
   ],
   "automatically": [
     "automatically"
@@ -14854,7 +14853,6 @@
     "touched",
     "touch-based",
     "touch-interface",
-    "touch-optimized",
     "touches",
     "touching"
   ],
@@ -17273,6 +17271,9 @@
   "agregation": [
     "agregation"
   ],
+  "ahref": [
+    "ahrefs"
+  ],
   "ai": [
     "ai",
     "ai's",
@@ -17504,7 +17505,6 @@
   "amazon": [
     "amazon",
     "amazon's",
-    "amazon-dynamodb",
     "amazon-web-services"
   ],
   "ambient": [
@@ -17662,8 +17662,6 @@
   "android": [
     "android",
     "android's",
-    "android-asynctask",
-    "android-edittext",
     "android-emulator",
     "android-fragments",
     "android-layout",
@@ -18496,6 +18494,9 @@
   ],
   "authorise": [
     "authorised"
+  ],
+  "authoritative": [
+    "authoritative"
   ],
   "authority": [
     "authorities",
@@ -21993,6 +21994,9 @@
   "credential": [
     "credentials"
   ],
+  "credibility": [
+    "credibility"
+  ],
   "credible": [
     "credible"
   ],
@@ -22088,8 +22092,7 @@
     "cryptotrading"
   ],
   "crystal": [
-    "crystal",
-    "crystal-reports"
+    "crystal"
   ],
   "csharp": [
     "csharp"
@@ -25758,8 +25761,7 @@
   ],
   "facebook": [
     "facebook",
-    "facebook's",
-    "facebook-graph-api"
+    "facebook's"
   ],
   "facet": [
     "facet",
@@ -26156,6 +26158,7 @@
     "finality"
   ],
   "finance": [
+    "finance",
     "financed",
     "finances"
   ],
@@ -26213,8 +26216,7 @@
   ],
   "firebase": [
     "firebase",
-    "firebase-authentication",
-    "firebase-realtime-database"
+    "firebase-authentication"
   ],
   "firefox": [
     "firefox",
@@ -35433,7 +35435,8 @@
     "payments"
   ],
   "payout": [
-    "payout"
+    "payout",
+    "payouts"
   ],
   "paypal": [
     "paypal"
@@ -35490,6 +35493,7 @@
     "pent"
   ],
   "penalty": [
+    "penalties",
     "penalty"
   ],
   "penance": [
@@ -40887,6 +40891,7 @@
   ],
   "spot": [
     "spot",
+    "spots",
     "spotted"
   ],
   "spotify": [
@@ -45784,7 +45789,8 @@
     "viewpoints"
   ],
   "viewport": [
-    "viewport"
+    "viewport",
+    "viewports"
   ],
   "vigorous": [
     "vigorous"

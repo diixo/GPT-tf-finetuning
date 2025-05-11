@@ -7427,6 +7427,7 @@ agreeably
 agreeing
 agreement
 agregation
+ahrefs
 ai
 ai's
 ai-accelerated
@@ -7580,7 +7581,6 @@ amazing
 amazingly
 amazon
 amazon's
-amazon-dynamodb
 amazon-web-services
 ambient
 ambiguate
@@ -7649,8 +7649,6 @@ anchors
 ancient
 android
 android's
-android-asynctask
-android-edittext
 android-emulator
 android-fragments
 android-layout
@@ -8043,6 +8041,7 @@ author
 authored
 authoring
 authorised
+authoritative
 authorities
 authority
 authorization
@@ -8089,7 +8088,6 @@ automake
 automaker
 automapper
 automated-testing
-automated-tests
 automatic
 automation
 automations
@@ -9811,6 +9809,7 @@ creators
 creature
 creatures
 credentials
+credibility
 credible
 credit
 crisis
@@ -9883,7 +9882,6 @@ cryptomining
 cryptosystem
 cryptotrading
 crystal
-crystal-reports
 csharp
 csi
 css
@@ -11611,7 +11609,6 @@ face
 face-to-face
 facebook
 facebook's
-facebook-graph-api
 faces
 facet
 facetime
@@ -11813,6 +11810,7 @@ fin-tech
 finale
 finality
 finals
+finance
 financed
 finances
 financial
@@ -11841,7 +11839,6 @@ finite
 fintech
 firebase
 firebase-authentication
-firebase-realtime-database
 firefox
 firefox's
 firestore
@@ -16398,6 +16395,7 @@ payloads
 payment
 payments
 payout
+payouts
 paypal
 pc
 pc's
@@ -16424,6 +16422,7 @@ peer-to-peer
 peering
 peers
 pen
+penalties
 penalty
 penance
 pencil
@@ -19153,6 +19152,7 @@ sports
 spot
 spotify
 spotlight
+spots
 spotted
 spp
 spreadsheet
@@ -20280,7 +20280,6 @@ totals
 tottering
 touch-based
 touch-interface
-touch-optimized
 touches
 touching
 touchpad
@@ -21365,6 +21364,7 @@ viewmodels
 viewpoint
 viewpoints
 viewport
+viewports
 views
 vigorous
 vigorously
