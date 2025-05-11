@@ -1,19 +1,15 @@
 
 # https://www.kaggle.com/code/vimalpillai/finetuning-gpt2-model-tensorflow/notebook
 
-
 from transformers import GPT2TokenizerFast, GPT2Config, TFGPT2LMHeadModel
 import tensorflow as tf
 import numpy as np
-
 
 # ---------- hyperparams ----------
 batch_size = 12
 seq_length = 100
 embedding_dim = 256
 dff = 256
-num_heads = 4
-num_layers = 4
 # ---------------------------------
 
 tokenizer_gpt = GPT2TokenizerFast.from_pretrained("tokenizer-gpt")
@@ -23,6 +19,13 @@ config = GPT2Config(
     eos_token_id = tokenizer_gpt.eos_token_id,
     pad_token_id = tokenizer_gpt.pad_token_id
 )
+
+print("config:",
+    f"vocab_size={config.vocab_size}",
+    f"n_positions={config.n_positions}",
+    f"n_embd={config.n_embd}",
+    f"n_layer={config.n_layer}",
+    f"n_head={config.n_head}",)
 
 ###########################################################
 # Text Data Preprocessing #################################
