@@ -24,6 +24,45 @@ trainer = BpeTrainer(vocab_size=50000, initial_alphabet=ByteLevel.alphabet(), mi
 
 tokenizer.train(["data/synthetic-data.txt"], trainer)
 
+with open("data/db-full.txt", "r", encoding="utf-8") as f:
+    word_set = set(
+        [line.strip() for line in f if line.strip()]
+    )
+
+word_set.update([
+    "weymouth",
+    "windsor",
+    "harriet",
+    "emma",
+    "elton",
+    "woodhouse",
+    "goddard",
+    "hartfield",
+    "knightley",
+    "perry",
+    "churchill",
+    "frank",
+    "weston",
+    "campbell",
+    "jane",
+    "fairfax",
+    "taylor",
+    "cole",
+    "colonel",
+    "bates",
+    "john",
+    "randalls",
+    "highbury",
+    "william",
+    "isabella",
+    "smith",
+    "martin",
+    "robert",
+    "marry",
+    "dixon",
+    "enscombe",
+])
+
 tokenizer.add_tokens([
     "do",
     "ing",
@@ -350,37 +389,6 @@ tokenizer.add_tokens([
     "manner",
     "spirit",
 
-    #"weymouth",
-    #"windsor",
-    "harriet",
-    "emma",
-    "elton",
-    "woodhouse",
-    "goddard",
-    "hartfield",
-    "knightley",
-    "perry",
-    "churchill",
-    "frank",
-    "weston",
-    "campbell",
-    "jane",
-    "fairfax",
-    "taylor",
-    "cole",
-    "colonel",
-    "bates",
-    "john",
-    "randalls",
-    "highbury",
-    "william",
-    "isabella",
-    "smith",
-    "martin",
-    "robert",
-    "marry",
-    "dixon",
-    "enscombe",
 
     "stay",
     "cold",
@@ -539,5 +547,7 @@ print_tokenization("Ask ask task mask tasking masking")
 print_tokenization("you young your yours we were mostly")
 
 print_tokenization("us use used uses using usual usually known knows whenever everyday illness seemingly")
+
+print_tokenization("densemind")
 
 statistic(tokenizer_gpt)
