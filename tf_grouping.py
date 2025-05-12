@@ -69,7 +69,7 @@ def group_words_by_lemma_spacy(file_path):
         lemma = lemmatize_spacy(word)
         lemma_groups[lemma].append(word)
         if i % 100 == 0 and i>0:
-            print(f"Processed ...on {i}/{len(words)}")
+            print(f"Processed ...on: {i}/{len(words)}")
 
     print(f"Finished all: {len(words)}")
     return dict(lemma_groups)
@@ -77,11 +77,11 @@ def group_words_by_lemma_spacy(file_path):
 
 if __name__ == '__main__':
 
+    json_path = "grouped_words.json"
+
     groups = group_words_by_lemma_spacy("data/db-full.txt")
 
-    fpath = "grouped_words.json"
+    print(f"groups={len(groups.items())} ({json_path})")
 
-    print(f"groups={len(groups.items())} ({fpath})")
-
-    with open(fpath, "w", encoding="utf-8") as f:
+    with open(json_path, "w", encoding="utf-8") as f:
         json.dump(groups, f, ensure_ascii=False, indent=2)
