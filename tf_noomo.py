@@ -60,6 +60,7 @@ word_set.update([
     "dixon",
     "enscombe",
 
+    "mr",
     "mrs",
     "fother",
     "mother",
